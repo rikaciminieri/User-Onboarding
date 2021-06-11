@@ -32,12 +32,12 @@ function Form(props) {
             : "invisible"
         }
       >
-        <div>{errors.name}</div>
-        <div>{errors.email}</div>
-        <div>{errors.password}</div>
-        <div>{errors.gender}</div>
-        <div>{errors.status}</div>
-        <div>{errors.terms}</div>
+        <div id="nameError">{errors.name}</div>
+        <div id="emailError">{errors.email}</div>
+        <div id="passwordError">{errors.password}</div>
+        <div id="genderError">{errors.gender}</div>
+        <div id="statusError">{errors.status}</div>
+        <div id="termsError">{errors.terms}</div>
       </div>
       <div>
           {/* TEXT INPUTS */}
